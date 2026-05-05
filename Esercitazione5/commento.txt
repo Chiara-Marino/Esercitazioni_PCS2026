@@ -1,0 +1,7 @@
+Si è svolta l'esercitazione implementando 100 vettori per ogni dimensione. 
+La dimensione dei vettori varia, nel primo grafico, tra 4 a 8192 e aumenta a multipli di due; nel secondo grafico invece, la dimensione varia da 1 a 100. 
+L'N-soglia trovato è superiore a 200: per questo nel grafico con vettori di lunghezza da 1 a 100 l'insertion sort risulta ancora il più efficace.
+L'N-soglia per il quicksort è 256: tutti gli algoritmi di ordinamento quadratici(bubble, selection e insertion sort) risultano più efficaci con vettori di lunghezze inferiori a l'N-soglia.
+Notiamo inoltre che il std::sort() della libreria è molto vicino all'insertion sort per vettori di lunghezza inferiore e molto vicino al quicksort per vettori di lunghezza  maggiore; esso risulta quindi uno degli algoritmi più convenienti per i tempi di ordinamento.
+Il cmake è stato eseguito con il release per velocizzare i tempi di ordinamento.
+
